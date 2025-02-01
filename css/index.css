@@ -120,7 +120,7 @@ main {
 }
 
 .fruit_yellow {
-  background: #ffd800;
+  background: #f5d000;
 }
 
 .fruit_lightbrown {
@@ -135,4 +135,37 @@ main {
   background: #fff;
   height: 100%;
   padding: 10px;
+  
+}
+
+input, select {
+  margin: 5px 10px 5px 0;
+  border: 0;
+  padding: 0 10px;
+  line-height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  background-color: #3cbc8d;
+  color: white;
+  width: 270px;
+}
+
+.warning{
+  position: absolute;
+  width: 75%;
+  height: 0;
+  background-color: rgb(241, 98, 98);
+  z-index: 10;
+  transition: 2s;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.warning__active{
+  height: 30px;
 }
